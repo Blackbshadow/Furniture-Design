@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Furniture Design</h1>
+        <p>Discover the latest trends in modern furniture for your home and office.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Our Furniture Collection</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="https://i0.wp.com/pimphomee.com/wp-content/uploads/2020/02/Gorgeous-Modern-Sofa-Designs-That-You-Definitely-Like-01.jpg?ssl=1&is-pending-load=1" alt="Modern Sofa">
+                <p>Modern Sofa</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.Pk5cenngc9aQPXVm1_ecTgHaK-&pid=Api&P=0&h=180" alt="Wooden Dining Table">
+                <p>Wooden Dining Table</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://i5.walmartimages.com/asr/2af356b6-69a6-48cd-a007-bccaa8f1c8fd_1.f5b7febf99e658e121d2c606db48ff63.jpeg" alt="Ergonomic Office Chair">
+                <p>Ergonomic Office Chair</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://i.pinimg.com/originals/de/f2/1e/def21ec3176dd5a82d7df0f793b012df.jpg" alt="Glass Coffee Table">
+                <p>Glass Coffee Table</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="confirmationMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
